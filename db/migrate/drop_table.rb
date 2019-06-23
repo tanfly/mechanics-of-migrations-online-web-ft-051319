@@ -1,7 +1,4 @@
 class CreateArtists < ActiveRecord::Migration[4.2]
-  def up
-  end
- 
-  def down
+  def drop_table
   end
 end
